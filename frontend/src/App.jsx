@@ -10,7 +10,7 @@ import { Navigate } from "react-router-dom";
 import DashboardPage from "./pages/DashboardPage.jsx";
 import LoadingSpinner from "./components/LoadingSpinner.jsx";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage.jsx";
-import ResetPasswordPage from "./components/ResetPasswordPage.jsx";
+import ResetPasswordPage from "./pages/ResetPasswordPage.jsx";
 
 // protect routes that require authentication
 const ProtectedRoute = ({ children }) => {
